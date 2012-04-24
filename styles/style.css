@@ -1,0 +1,42 @@
+body{
+	background: left top url('../images/city_hdr-wallpaper-1440x1080.jpg') #000;
+	padding: 10px;
+	}
+
+#box {
+	display: inline-block;
+	width: 250px; 
+	margin: 10px;
+	border: 1px solid black;
+	background: rgba(0, 0, 0, 0.5); 
+	box-shadow: 0px 0px 20px -3px rgba(255,255,255,0.4) inset;
+	-moz-box-shadow: 0px 0px 20px -3px rgba(255,255,255,0.4) inset;
+	-webkit-box-shadow: 0px 0px 20px -3px rgba(255,255,255,0.4) inset;
+	border-radius: 2px 2px 6px 6px; 
+	-moz-border-radius: 2px 2px 6px 6px; 
+	-webkit-border-radius: 2px 2px 6px 6px;
+	}
+.description p {
+	color: #000;
+	font-size: 13px;
+    }
+.image {
+	padding: 10px;
+	}
+	.image img {
+		width:230px; 
+		-webkit-box-shadow: 0px 0px -2px 3px rgba(255, 255, 255, .4);
+		-moz-box-shadow: 0px 0px -2px 3px rgba(255, 255, 255, .4);
+		box-shadow: 0px 0px -2px 3px rgba(255, 255, 255, .4);
+		}
+.description {
+	background: rgba(255,255,255,0.65);
+	border-top: 1px solid black;
+	padding:10px;
+	border-radius: 0px 0px 6px 6px; 
+	-moz-border-radius: 0px 0px 6px 6px; 
+	-webkit-border-radius: 0px 0px 6px 6px;
+	box-shadow: 0px 0px 26px 0px rgba(0,0,0,0.4) inset;
+	-moz-box-shadow: 0px 0px 26px 0px rgba(0,0,0,0.4) inset;
+	-webkit-box-shadow: 0px 0px 26px 0px rgba(0,0,0,0.4) inset;
+	}
